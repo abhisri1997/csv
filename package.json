@@ -1,0 +1,20 @@
+{
+  "name": "raftlabs",
+  "version": "1.0.0",
+  "description": "Read from csv file and insert data to DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Abhinav Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "csv": "^6.2.0",
+    "express": "^4.18.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
